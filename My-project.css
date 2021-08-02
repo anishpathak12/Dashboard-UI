@@ -37,10 +37,6 @@ button:hover{
     background-color: white;
     color: blue;
 }
-.button{
-    
-}
-
 .grid{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -48,7 +44,7 @@ button:hover{
 }
 
 nav{
-    grid-column: 0/0.5;
+    grid-column: 1/2;
     background-color: white;
     margin: 0;
     border-radius: 20px;
@@ -57,24 +53,21 @@ main{
     grid-column: 2/4;
    }
 aside{
-    grid-column: 5/7;
+    grid-column: 1/4;
     background-color: white;
     padding:10px;
-    margin-bottom: 50px;
     border-radius: 20px;
     
 }
 section{
-    grid-column: 7/9;
+    grid-column: 4/8;
     background-color: white;
     padding: 20px;
-    margin-right: 30px;
     border-radius: 20px;
 }
 footer{
-    grid-row: 2;
     background-color: white;
-    grid-column: 5/9;
+    grid-column: 1/8;
     border-radius: 20px;
     padding-left: 20px;
     
